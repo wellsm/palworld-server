@@ -45,5 +45,5 @@ if [ $attempt -gt $MAX_RETRIES ]; then
 fi
 
 echo "[Palworld] Starting server..."
-exec ./PalServer.sh -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
+exec /palworld/PalServer.sh -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
 
